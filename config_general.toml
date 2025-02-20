@@ -1,0 +1,116 @@
+
+# atomic orbital basis and pseudopotentials 
+# needed to be checked soft and hard PAO
+[definition_of_atomic_species]
+definition_of_atomic_species = [
+##[	Element	Quick	Standard	Precise	VPS	],
+[	"E",	"Kr10.0-s1p1",	"Kr10.0-s2p1d1",	"Kr10.0-s2p2d1f1",	"E"	],
+[	"H",	"H5.0-s2",	"H6.0-s2p1",	"H7.0-s2p2d1",	"H_PBE19"	],
+[	"He",	"He8.0-s1p1",	"He8.0-s2p1",	"He10.0-s2p2d1",	"He_PBE19"	],
+[	"Li",	"Li8.0-s3p1",	"Li8.0-s3p2",	"Li8.0-s3p2d1",	"Li_PBE19"	],
+[	"Be",	"Be7.0-s2p1",	"Be7.0-s2p2",	"Be7.0-s3p2d1",	"Be_PBE19"	],
+[	"B",	"B7.0-s2p2",	"B7.0-s2p2d1",	"B7.0-s3p2d2",	"B_PBE19"	],
+[	"C",	"C6.0-s2p2",	"C6.0-s2p2d1",	"C6.0-s3p2d2",	"C_PBE19"	],
+[	"N",	"N6.0-s2p2",	"N6.0-s2p2d1",	"N6.0-s3p2d2",	"N_PBE19"	],
+[	"O",	"O6.0-s2p2",	"O6.0-s2p2d1",	"O6.0-s3p2d2",	"O_PBE19"	],
+[	"F",	"F6.0-s2p2",	"F6.0-s2p2d1",	"F6.0-s3p3d2f1",	"F_PBE19"	],
+[	"Ne",	"Ne9.0-s2p2",	"Ne9.0-s2p2d1",	"Ne9.0-s3p2d2",	"Ne_PBE19"	],
+[	"Na",	"Na9.0-s3p2",	"Na9.0-s3p2d1",	"Na9.0-s3p2d2",	"Na_PBE19"	],
+[	"Mg",	"Mg9.0-s2p2",	"Mg9.0-s3p2d1",	"Mg9.0-s3p2d2",	"Mg_PBE19"	],
+[	"Al",	"Al7.0-s2p1d1",	"Al7.0-s2p2d1",	"Al7.0-s3p2d2",	"Al_PBE19"	],
+[	"Si",	"Si7.0-s2p1d1",	"Si7.0-s2p2d1",	"Si7.0-s3p3d2",	"Si_PBE19"	],
+[	"P",	"P7.0-s2p2d1",	"P7.0-s2p2d1f1",	"P7.0-s3p2d2f1",	"P_PBE19"	],
+[	"S",	"S7.0-s2p2d1",	"S7.0-s2p2d1f1",	"S7.0-s3p2d2f1",	"S_PBE19"	],
+[	"Cl",	"Cl7.0-s2p2d1",	"Cl7.0-s2p2d1f1",	"Cl7.0-s3p2d2f1",	"Cl_PBE19"	],
+[	"Ar",	"Ar9.0-s2p2d1",	"Ar9.0-s2p2d1f1",	"Ar9.0-s3p2d2f1",	"Ar_PBE19"	],
+[	"K",	"K10.0-s3p2",	"K10.0-s3p2d1",	"K10.0-s3p2d2",	"K_PBE19"	],
+[	"Ca",	"Ca9.0-s3p2",	"Ca9.0-s3p2d1",	"Ca9.0-s3p2d2",	"Ca_PBE19"	],
+[	"Sc",	"Sc9.0-s2p2d1",	"Sc9.0-s3p2d1",	"Sc9.0-s3p2d2",	"Sc_PBE19"	],
+[	"Ti",	"Ti7.0-s2p2d1",	"Ti7.0-s3p2d1",	"Ti7.0-s3p2d2f1",	"Ti_PBE19"	],
+[	"V",	"V6.0-s2p2d1",	"V6.0-s3p2d1",	"V6.0-s3p2d2f1",	"V_PBE19"	],
+[	"Cr",	"Cr6.0-s2p2d1",	"Cr6.0-s3p2d1",	"Cr6.0-s3p2d2f1",	"Cr_PBE19"	],
+[	"Mn",	"Mn6.0-s2p2d1",	"Mn6.0-s3p2d1",	"Mn6.0-s3p2d2f1",	"Mn_PBE19"	],
+[	"Fe",	"Fe5.5H-s2p2d1",	"Fe5.5H-s3p2d1",	"Fe5.5H-s3p2d2f1",	"Fe_PBE19H"	],
+[	"Fe",	"Fe6.0S-s2p2d1",	"Fe6.0S-s3p2d1",	"Fe6.0S-s3p2d2f1",	"Fe_PBE19S"	],
+[	"Co",	"Co6.0H-s2p2d1",	"Co6.0H-s3p2d1",	"Co6.0H-s3p2d2f1",	"Co_PBE19H"	],
+[	"Co",	"Co6.0S-s2p2d1",	"Co6.0S-s3p2d1",	"Co6.0S-s3p2d2f1",	"Co_PBE19S"	],
+[	"Ni",	"Ni6.0H-s2p2d1",	"Ni6.0H-s3p2d1",	"Ni6.0H-s3p2d2f1",	"Ni_PBE19H"	],
+[	"Ni",	"Ni6.0S-s2p2d1",	"Ni6.0S-s3p2d1",	"Ni6.0S-s3p2d2f1",	"Ni_PBE19S"	],
+[	"Cu",	"Cu6.0H-s2p2d1",	"Cu6.0H-s3p2d1",	"Cu6.0H-s3p2d2f1",	"Cu_PBE19H"	],
+[	"Cu",	"Cu6.0S-s2p1d1",	"Cu6.0S-s3p2d1",	"Cu6.0S-s3p2d2f1",	"Cu_PBE19S"	],
+[	"Zn",	"Zn6.0H-s2p2d1",	"Zn6.0H-s3p2d1",	"Zn6.0H-s3p2d2f1",	"Zn_PBE19H"	],
+[	"Zn",	"Zn6.0S-s2p1d1",	"Zn6.0S-s3p2d1",	"Zn6.0S-s3p2d2f1",	"Zn_PBE19S"	],
+[	"Ga",	"Ga7.0-s2p2d1",	"Ga7.0-s3p2d2",	"Ga7.0-s3p2d2f1",	"Ga_PBE19"	],
+[	"Ge",	"Ge7.0-s2p1d1",	"Ge7.0-s3p2d2",	"Ge7.0-s3p2d2f1",	"Ge_PBE19"	],
+[	"As",	"As7.0-s3p2d1",	"As7.0-s3p2d2",	"As7.0-s3p2d2f1",	"As_PBE19"	],
+[	"Se",	"Se7.0-s3p2d1",	"Se7.0-s3p2d2",	"Se7.0-s3p2d2f1",	"Se_PBE19"	],
+[	"Br",	"Br7.0-s3p2d1",	"Br7.0-s3p2d2",	"Br7.0-s3p2d2f1",	"Br_PBE19"	],
+[	"Kr",	"Kr10.0-s2p2d1",	"Kr10.0-s3p2d2",	"Kr10.0-s3p2d2f1",	"Kr_PBE19"	],
+[	"Rb",	"Rb11.0-s2p2d1",	"Rb11.0-s3p2d2",	"Rb11.0-s3p2d2f1",	"Rb_PBE19"	],
+[	"Sr",	"Sr10.0-s2p2d1",	"Sr10.0-s3p2d2",	"Sr10.0-s3p3d2f1",	"Sr_PBE19"	],
+[	"Y",	"Y10.0-s3p2d1",	"Y10.0-s3p2d2",	"Y10.0-s3p3d2f1",	"Y_PBE19"	],
+[	"Zr",	"Zr7.0-s3p2d1",	"Zr7.0-s3p2d2",	"Zr7.0-s3p2d2f1",	"Zr_PBE19"	],
+[	"Nb",	"Nb7.0-s3p2d1",	"Nb7.0-s3p2d2",	"Nb7.0-s3p2d2f1",	"Nb_PBE19"	],
+[	"Mo",	"Mo7.0-s3p2d1",	"Mo7.0-s3p2d2",	"Mo7.0-s3p2d2f1",	"Mo_PBE19"	],
+[	"Tc",	"Tc7.0-s3p2d1",	"Tc7.0-s3p2d2",	"Tc7.0-s3p2d2f1",	"Tc_PBE19"	],
+[	"Ru",	"Ru7.0-s3p2d1",	"Ru7.0-s3p2d2",	"Ru7.0-s3p2d2f1",	"Ru_PBE19"	],
+[	"Rh",	"Rh7.0-s3p2d1",	"Rh7.0-s3p2d2",	"Rh7.0-s3p2d2f1",	"Rh_PBE19"	],
+[	"Pd",	"Pd7.0-s3p2d1",	"Pd7.0-s3p2d2",	"Pd7.0-s3p2d2f1",	"Pd_PBE19"	],
+[	"Ag",	"Ag7.0-s3p2d1",	"Ag7.0-s3p2d2",	"Ag7.0-s3p2d2f1",	"Ag_PBE19"	],
+[	"Cd",	"Cd7.0-s3p2d1",	"Cd7.0-s3p2d2",	"Cd7.0-s3p2d2f1",	"Cd_PBE19"	],
+[	"In",	"In7.0-s3p2d1",	"In7.0-s3p2d2",	"In7.0-s3p2d2f1",	"In_PBE19"	],
+[	"Sn",	"Sn7.0-s3p2d1",	"Sn7.0-s3p2d2",	"Sn7.0-s3p2d2f1",	"Sn_PBE19"	],
+[	"Sb",	"Sb7.0-s3p2d1",	"Sb7.0-s3p2d2",	"Sb7.0-s3p2d2f1",	"Sb_PBE19"	],
+[	"Te",	"Te7.0-s3p2d2",	"Te7.0-s3p2d2f1",	"Te7.0-s3p3d2f1",	"Te_PBE19"	],
+[	"I",	"I7.0-s3p2d2",	"I7.0-s3p2d2f1",	"I7.0-s3p3d2f1",	"I_PBE19"	],
+[	"Xe",	"Xe11.0-s3p2d1",	"Xe11.0-s3p2d2",	"Xe11.0-s3p2d2f1",	"Xe_PBE19"	],
+[	"Cs",	"Cs12.0-s3p2d1",	"Cs12.0-s3p2d2",	"Cs12.0-s3p2d2f1",	"Cs_PBE19"	],
+[	"Ba",	"Ba10.0-s3p2d1",	"Ba10.0-s3p2d2",	"Ba10.0-s3p2d2f1",	"Ba_PBE19"	],
+[	"La",	"La8.0-s3p2d1f1",	"La8.0-s3p2d2f1",	"La8.0-s3p3d2f1",	"La_PBE19"	],
+[	"Ce",	"Ce8.0-s3p2d1f1",	"Ce8.0-s3p2d2f1",	"Ce8.0-s3p3d2f1",	"Ce_PBE19"	],
+[	"Pr",	"Pr8.0-s3p2d1f1",	"Pr8.0-s3p2d2f1",	"Pr8.0-s3p3d2f1",	"Pr_PBE19"	],
+[	"Nd",	"Nd8.0-s3p2d1f1",	"Nd8.0-s3p2d2f1",	"Nd8.0-s3p3d2f1",	"Nd_PBE19"	],
+[	"Pm",	"Pm8.0-s3p2d1f1",	"Pm8.0-s3p2d2f1",	"Pm8.0-s3p3d2f1",	"Pm_PBE19"	],
+[	"Sm",	"Sm8.0-s3p2d1f1",	"Sm8.0-s3p2d2f1",	"Sm8.0-s3p3d2f1",	"Sm_PBE19"	],
+[	"Dy",	"Dy8.0-s3p2d1f1",	"Dy8.0-s3p2d2f1",	"Dy8.0-s3p3d2f1",	"Dy_PBE19"	],
+[	"Ho",	"Ho8.0-s3p2d1f1",	"Ho8.0-s3p2d2f1",	"Ho8.0-s3p3d2f1",	"Ho_PBE19"	],
+[	"Lu",	"Lu8.0-s3p2d2",	"Lu8.0-s3p2d2f1",	"Lu8.0-s3p3d2f1",	"Lu_PBE19"	],
+[	"Hf",	"Hf9.0-s3p2d2",	"Hf9.0-s3p2d2f1",	"Hf9.0-s3p3d2f1",	"Hf_PBE19"	],
+[	"Ta",	"Ta7.0-s3p2d2",	"Ta7.0-s3p2d2f1",	"Ta7.0-s3p3d2f1",	"Ta_PBE19"	],
+[	"W",	"W7.0-s3p2d2",	"W7.0-s3p2d2f1",	"W7.0-s3p3d2f1",	"W_PBE19"	],
+[	"Re",	"Re7.0-s3p2d2",	"Re7.0-s3p2d2f1",	"Re7.0-s3p3d2f1",	"Re_PBE19"	],
+[	"Os",	"Os7.0-s3p2d2",	"Os7.0-s3p2d2f1",	"Os7.0-s3p3d2f1",	"Os_PBE19"	],
+[	"Ir",	"Ir7.0-s3p2d2",	"Ir7.0-s3p2d2f1",	"Ir7.0-s3p3d2f1",	"Ir_PBE19"	],
+[	"Pt",	"Pt7.0-s3p2d2",	"Pt7.0-s3p2d2f1",	"Pt7.0-s3p3d2f1",	"Pt_PBE19"	],
+[	"Au",	"Au7.0-s3p2d2",	"Au7.0-s3p2d2f1",	"Au7.0-s3p3d2f1",	"Au_PBE19"	],
+[	"Hg",	"Hg8.0-s3p2d2",	"Hg8.0-s3p2d2f1",	"Hg8.0-s3p3d2f1",	"Hg_PBE19"	],
+[	"Tl",	"Tl8.0-s3p2d2",	"Tl8.0-s3p2d2f1",	"Tl8.0-s3p3d2f1",	"Tl_PBE19"	],
+[	"Pb",	"Pb8.0-s3p2d2",	"Pb8.0-s3p2d2f1",	"Pb8.0-s3p3d2f1",	"Pb_PBE19"	],
+[	"Bi",	"Bi8.0-s3p2d2",	"Bi8.0-s3p2d2f1",	"Bi8.0-s3p3d2f1",	"Bi_PBE19"	]
+]
+
+
+
+# Default initial magnetic moments for atomic species in collinear 
+[default_magnetic_moments]
+V = 1.0
+Cr = 2.0
+Mn = 4.0
+Fe = 3.0
+Co = 2.5
+Ni = 1.5
+Cu = 1.0
+Nb = 1.0
+Mo = 2.0
+Tc = 4.0
+Ru = 3.0
+Rh = 2.5
+Pd = 1.5
+Ag = 0.5
+Ta = 1.0
+W  = 2.0
+Re = 4.0
+Os = 3.0
+Ir = 2.5
+Pt = 1.5
+Au = 0.5
