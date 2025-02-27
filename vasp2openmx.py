@@ -24,6 +24,7 @@ basis_list = config_general["definition_of_atomic_species"]["definition_of_atomi
 basis_dict = {entry[0]: entry[1:] for entry in basis_list}  # {Element: [Quick, Standard, Precise, VPS]}
 
 selected_basis_type = "Standard"  #  "Quick" | "Standard" | "Precise"
+selected_basis_type = "Precise"  #  "Quick" | "Standard" | "Precise"
 
 basis_index = {"Quick": 0, "Standard": 1, "Precise": 2}.get(selected_basis_type, 1)
 ## basis information from POSCAR
