@@ -88,6 +88,7 @@ with open(dat_filename, "a") as f:  # append mode
     f.write(f"scf.Mixing.History        {scf_minxing_history}         # default=5\n")
     f.write(f"scf.Mixing.StartPulay     {scf_mixing_start}        # default=6\n")
     f.write(f"scf.Mixing.EveryPulay     {scf_mixing_every}        \n")
+    f.write(f"scf.restart               on        # on|off,default=off\n")
 
 
 # To be Added
