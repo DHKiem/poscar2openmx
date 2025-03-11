@@ -5,6 +5,7 @@ from ase.io import read
 #from ase.units import Ha
 from ase.units import Ry
 from ase.calculators.openmx import OpenMX
+import argparse
 
 # Load TOML config
 config = toml.load("config.toml")
@@ -17,14 +18,21 @@ print(general_env_path+"/config_general.toml")
 config_general = toml.load(general_env_path+"/config_general.toml")
 
 # Load structure file
-atoms = read("POSCAR") # default: POSCAR
+parser = argparse.ArgumentParser(description= "Input file name [default=POSCAR].")
+parser.add_argument("input_file", nargs="?", default="POSCAR", help="Input file name [default: POSCAR]")
+args = parser.parse_args()
+
+#atoms = read("POSCAR") # default: POSCAR
+atoms = read(args.input_file)
+print(f"Input file : {args.input_file}")
+
 
 # Atomic basis
 basis_list = config_general["definition_of_atomic_species"]["definition_of_atomic_species"]
 basis_dict = {entry[0]: entry[1:] for entry in basis_list}  # {Element: [Quick, Standard, Precise, VPS]}
 
 selected_basis_type = "Standard"  #  "Quick" | "Standard" | "Precise"
-selected_basis_type = "Precise"  #  "Quick" | "Standard" | "Precise"
+selected_basis_type = "Precise"  #  "Quick" | "Standard" | "Precise"  # default
 
 basis_index = {"Quick": 0, "Standard": 1, "Precise": 2}.get(selected_basis_type, 1)
 ## basis information from POSCAR
@@ -63,7 +71,7 @@ calc = OpenMX(
 atoms.calc = calc
 calc.write_input(atoms)
 
-print(f"INPUT file: '{config.get('label', 'openmx')}.dat' created. ")
+print(f"OpenMX file: '{config.get('label', 'openmx')}.dat' created. ")
 
 # Adding some keywords
 dat_filename  = f"{config.get('label', 'openmx')}.dat"

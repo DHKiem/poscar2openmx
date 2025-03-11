@@ -1,0 +1,7 @@
+test_mag1/POSCAR
+test_mag1/openmx.dat
+test_mag1/config.toml
+test2/PRIMCELL.vasp
+test2/POSCAR
+openmx
+.DS_Store
